@@ -18,7 +18,7 @@
 		// Make regular profit reports
 		var stockerActivityReport = true
 			// How often to make regular reports in ms (one hour by default)
-			var stockerActivityReportFrequency = 1000 * 60 * 60
+			var stockerActivityReportFrequency = 1000 * 60
 
 		// Make game notifications fade away on their own
 		var stockerFastNotifications = false
@@ -27,7 +27,7 @@
 		var stockerConsoleAnnouncements = false
 
 		// Logic loop frequency; do not touch it unless you are cheating
-		var stockerLoopFrequency = 1000 * 30
+		var stockerLoopFrequency = 1000 * 0.2
 
 		
 		// The cheat itself. Rolls the cycle every time logic loop triggers
