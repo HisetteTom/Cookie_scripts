@@ -13,7 +13,7 @@
 		var stockerStopTrading = false
 		
 		// Announce transactions in game notifications
-		var stockerTransactionNotifications = true
+		var stockerTransactionNotifications = false
 
 		// Make regular profit reports
 		var stockerActivityReport = true
@@ -31,7 +31,7 @@
 
 		
 		// The cheat itself. Rolls the cycle every time logic loop triggers
-		var stockerForceLoopUpdates = false
+		var stockerForceLoopUpdates = true
 
 		var hideBogdanoff = true
 		var stockerGreeting = 'click clack you are now in debt'
@@ -448,3 +448,4 @@ Game.registerMod('CookiStocker',{
 }
 else setTimeout(waitForGame,100)
 })
+
