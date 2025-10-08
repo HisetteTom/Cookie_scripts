@@ -1283,8 +1283,8 @@ Game.registerMod("cookiegardenhelperreloaded",{
 			this.setSeedListTooltips();
 
 			//Display Upgrades
-			this.doc.elId('cghrUpgradeListDiv').textContent = '';
-			this.doc.elId('cghrUpgradeListDiv').innerHTML = this.getUpgradeListDisplay();
+			//this.doc.elId('cghrUpgradeListDiv').textContent = '';
+			//this.doc.elId('cghrUpgradeListDiv').innerHTML = this.getUpgradeListDisplay();
 			
 			// sacrifice garden
 			if(!this.oldConvert){
@@ -1392,4 +1392,5 @@ Game.registerMod("cookiegardenhelperreloaded",{
 		};
 		this.build();
 	},
+
 });
